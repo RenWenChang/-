@@ -1,0 +1,30 @@
+.list li .block{
+    display: none;
+}
+
+.list{
+    width:100%; height:95vh; overflow-y:scroll
+}
+
+h1{
+    color:white;
+} 
+.SubTitle{
+    color:white;
+}
+
+h2{
+    text-align: center;
+}
+
+body{
+
+    background-image:url("https://images.unsplash.com/photo-1512206845341-9206cd251a7b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=638c31f0a5e7538479982df8601f1216&auto=format&fit=crop&w=1400&q=80");
+
+}
+
+li,select,option{
+    cursor: pointer;
+}
+
+
