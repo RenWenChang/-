@@ -104,7 +104,7 @@ function updatelist(e) {
 
   SubTitle.innerHTML = select;
   str = '';
-  if (e.target.value == "全部" || e.target.value == null) {
+  if (e.target.value == "全部") {
     for (var i = 0; i < alldata; i++) {
       str += '<li class="scene card m-1 list-group-item" style="width:;"><span style="font-weight:bold;" class="SceneName ">' + data[i].Name + '</span><div class="block"><img class="card-img-top" src="' + data[i].Picture1 + '"><div class="sceneText"><span class="Scenename">' + data[i].Name + '</span><span class="SceneZ">' + data[i].Zone + '</span></div><div class="DateIcon"></div><p class="openDate">' + data[i].Opentime + '</p><div class="AddressIcon"></div><a href="https://www.google.com.tw/maps/place/' + data[i].Py + ',' + data[i].Px + '" target="_blank">' + data[i].Add + '</a><div class="PhoneIcon"><span class="phone">' + data[i].Tel + '</span></div><div class="TagIcon"></div><span class="free">' + data[i].Ticketinfo + '</span></div></li>'
     };
