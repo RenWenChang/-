@@ -33,6 +33,7 @@ function initMap() {
       $(document).ready(function () {
         $('.list li ').click(function (event) {
           $(this).children(".block").slideToggle();
+          $(this).siblings().children(".block").slideUp();
         });
       });
     }
@@ -99,6 +100,7 @@ function updatelist(e) {
   $(document).ready(function () {
     $('.list li ').click(function (event) {
       $(this).children(".block").slideToggle();
+      $(this).siblings().children(".block").slideUp();
     });
   });
 
