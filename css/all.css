@@ -27,4 +27,8 @@ li,select,option{
     cursor: pointer;
 }
 
+.SceneName{
+    width: 100%;
+}
+
 
